@@ -1,1 +1,1 @@
-# Szkolenie-python
+# To jest nowy opis pliku Read Me.
