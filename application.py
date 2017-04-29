@@ -8,7 +8,6 @@ class Application:
 
     def logout(self):
         wd = self.wd
-        # logout
         wd.find_element_by_link_text("Logout").click()
 
     def return_to_groups_page(self):
