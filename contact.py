@@ -7,4 +7,4 @@ class Contact:
         self.adress = adress
         self.mobile = mobile
         self.email = email
-        self.notest = notes
+        self.notes = notes
