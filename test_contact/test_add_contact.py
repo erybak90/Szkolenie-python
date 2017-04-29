@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 import pytest
-from contact import Contact
-from application1 import Application1
+
+from fixture_contact.application1 import Application1
+from model_contact.contact import Contact
 
 
 @pytest.fixture
@@ -31,7 +32,3 @@ def test_add_empty_contact(app):
                                        email="", notes=""))
     app.submit_contact_creation()
     app.logout()
-
-
-if __name__ == '__main__':
-    unittest.main()

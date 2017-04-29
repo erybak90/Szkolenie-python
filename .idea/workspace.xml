@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a40e5b5-9836-4f60-9ea6-66545347483c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_add_contact.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application1.py" afterPath="$PROJECT_DIR$/fixture_contact/application1.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/contact.py" afterPath="$PROJECT_DIR$/model_contact/contact.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test_add_contact.py" afterPath="$PROJECT_DIR$/test_contact/test_add_contact.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.py" afterPath="$PROJECT_DIR$/contact.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="test_add_contact.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_add_contact.py">
+        <entry file="file://$PROJECT_DIR$/test_contact/test_add_contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="527">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -29,7 +30,7 @@
         </entry>
       </file>
       <file leaf-file-name="application1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application1.py">
+        <entry file="file://$PROJECT_DIR$/fixture_contact/application1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1105">
               <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
@@ -39,7 +40,7 @@
         </entry>
       </file>
       <file leaf-file-name="contact.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact.py">
+        <entry file="file://$PROJECT_DIR$/model_contact/contact.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -82,8 +83,8 @@
         <option value="$PROJECT_DIR$/fixture/group.py" />
         <option value="$PROJECT_DIR$/contact.py" />
         <option value="$PROJECT_DIR$/application1.py" />
-        <option value="$PROJECT_DIR$/test_add_contact.py" />
         <option value="$PROJECT_DIR$/contacts.py" />
+        <option value="$PROJECT_DIR$/test_add_contact.py" />
       </list>
     </option>
   </component>
@@ -133,6 +134,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test_contact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Szkolenie-python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Szkolenie-python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -147,7 +162,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="model_contact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Szkolenie-python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Szkolenie-python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Szkolenie-python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Szkolenie-python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fixture_contact" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -176,9 +219,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ewelina\Documents\GitHub\Python_szkolenie\Szkolenie-python\test_contact" />
+      <recent name="C:\Users\Ewelina\Documents\GitHub\Python_szkolenie\Szkolenie-python\fixture_contact" />
+      <recent name="C:\Users\Ewelina\Documents\GitHub\Python_szkolenie\Szkolenie-python\model_contact" />
       <recent name="C:\Users\Ewelina\Documents\GitHub\Python_szkolenie\Szkolenie-python\test" />
       <recent name="C:\Users\Ewelina\Documents\GitHub\Python_szkolenie\Szkolenie-python\fixture" />
-      <recent name="C:\Users\Ewelina\Documents\GitHub\Python_szkolenie\Szkolenie-python\model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -258,7 +303,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Szkolenie-python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_add_contact.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Ewelina\Documents\GitHub\Python_szkolenie\Szkolenie-python\test_contact\test_add_contact.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -276,7 +321,7 @@
       <module name="Szkolenie-python" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_contact.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_contact/test_add_contact.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
@@ -431,14 +476,14 @@
     <history-entry file="py_test_in_test_add_contact_py - 2017.04.29 at 20h 33m 47s.xml">
       <configuration name="py.test in test_add_contact.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_test_add_contact_py - 2017.04.29 at 21h 42m 36s.xml">
+      <configuration name="py.test in test_add_contact.py" configurationId="tests" />
+    </history-entry>
     <history-entry file="py_test_in_test_add_group_py - 2017.04.29 at 17h 51m 15s.xml">
       <configuration name="py.test in test_add_group.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test_add_group_py - 2017.04.29 at 18h 20m 25s.xml">
       <configuration name="py.test in test_add_group.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="test_add_group_py - 2017.04.28 at 09h 46m 17s.xml">
-      <configuration name="test_add_group.py" configurationId="tests" />
     </history-entry>
     <history-entry file="test_add_group_py - 2017.04.28 at 09h 48m 01s.xml">
       <configuration name="test_add_group.py" configurationId="tests" />
@@ -598,14 +643,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_add_contact.py">
+    <entry file="file://$PROJECT_DIR$/test_contact/test_add_contact.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="33" column="56" lean-forward="false" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.py">
+    <entry file="file://$PROJECT_DIR$/model_contact/contact.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -675,7 +720,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.py">
+    <entry file="file://$PROJECT_DIR$/model_contact/contact.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -683,7 +728,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application1.py">
+    <entry file="file://$PROJECT_DIR$/fixture_contact/application1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1105">
           <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
@@ -691,7 +736,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_add_contact.py">
+    <entry file="file://$PROJECT_DIR$/test_contact/test_add_contact.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="19" />
@@ -701,10 +746,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_add_contact.py">
+    <entry file="file://$PROJECT_DIR$/test_contact/test_add_contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="527">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
