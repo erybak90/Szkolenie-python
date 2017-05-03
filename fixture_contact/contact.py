@@ -4,9 +4,26 @@ class ContactHelper:
     def __init__(self, app):
         self.app = app
 
+    def edit_first_contact(self):
+        wd = self.app.wd
+        wd.find_element_by_name("selected[]").click()
+        wd.find_element_by_xpath("//table[@id='maintable']/tbody/tr[2]/td[8]/a/img").click()
+        wd.find_element_by_name("firstname").click()
+        wd.find_element_by_name("firstname").clear()
+        wd.find_element_by_name("firstname").send_keys("abc")
+        wd.find_element_by_name("nickname").click()
+        wd.find_element_by_name("nickname").clear()
+        wd.find_element_by_name("nickname").send_keys("def")
+        wd.find_element_by_name("home").click()
+        wd.find_element_by_name("home").clear()
+        wd.find_element_by_name("home").send_keys("777888999")
+        wd.find_element_by_name("notes").click()
+        wd.find_element_by_xpath("//div[@id='content']/form[1]/input[22]").click()
+        wd.find_element_by_link_text("home page").click()
+
     def delete_first_contact(self):
         wd = self.app.wd
-        # select first group
+        # select first contact
         wd.find_element_by_name("selected[]").click()
         # submit deletion
         wd.find_element_by_xpath("//div[@id='content']/form[2]/div[2]/input").click()
