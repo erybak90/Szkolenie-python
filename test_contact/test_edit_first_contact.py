@@ -1,10 +1,9 @@
 from model.contact import Contact
 
-def test_edit_first_contact(app):
-    if app.contact.count() == 0:
-        app.contact.open_add_new_contact_form()
-        app.contact.init_fill_contact_form(Contact(Firstname="First name", Lastname="Last name", Nickname="NIckname", company="Corpo", adress="Poland",
-                    mobile="698998657",
-                    email="wcia@radiowy.net", notes="Dodanie kontaktu"))
-        app.contact.submit_contact_creation()
-    app.contact.edit_first_contact()
+
+def test_modify_contact_firstname(app):
+    app.contact.modify_first_contact(Contact(Firstname="New firstname"))
+
+
+def test_modify_contact_nickname(app):
+    app.contact.modify_first_contact(Contact(Nickname="New nickname"))
