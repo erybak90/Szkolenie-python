@@ -13,7 +13,7 @@ class ContactHelper:
         self.fill_contact_form(new_contact_data)
         # submit modification
         wd.find_element_by_name("update").click()
-        wd.find_element_by_link_text("home page").click()
+        wd.find_element_by_link_text("home").click()
 
     def delete_first_contact(self):
         wd = self.app.wd
@@ -21,6 +21,7 @@ class ContactHelper:
         # submit deletion
         wd.find_element_by_xpath("//div[@id='content']/form[2]/div[2]/input").click()
         wd.switch_to_alert().accept()
+        wd.find_element_by_link_text("home").click()
 
     def select_first_contact(self):
         wd = self.app.wd
@@ -29,6 +30,7 @@ class ContactHelper:
     def submit_contact_creation(self):
         wd = self.app.wd
         wd.find_element_by_xpath("//div[@id='content']/form/input[21]").click()
+        wd.find_element_by_link_text("home").click()
 
     def init_fill_contact_form(self, contact):
         wd = self.app.wd

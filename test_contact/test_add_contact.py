@@ -11,7 +11,6 @@ def test_add_contact(app):
     app.contact.submit_contact_creation()
 
 
-
 def test_add_empty_contact(app):
     app.contact.open_add_new_contact_form()
     app.contact.init_fill_contact_form(Contact(Firstname="", Lastname="", Nickname="", company="", address="", mobile="", email="", notes=""))
