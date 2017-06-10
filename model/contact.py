@@ -18,3 +18,5 @@ class Contact:
     def __eq__(self, other):
         return self.Firstname == other.Firstname and self.Lastname == other.Lastname
 
+
+
