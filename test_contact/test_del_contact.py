@@ -1,6 +1,10 @@
 from model.contact import Contact
 
 def test_delete_first_contact(app):
+    if app.contact.count() == 0:
+        app.contact(Contact(Firstname="First name", Lastname="Last name", Nickname="NIckname", company="Corpo", address="Poland",
+                mobile="698998657",
+                email="wcia@radiowy.net", notes="Dodanie kontaktu"))
     old_contacts = app.contact.get_contact_list()
     app.contact.delete_first_contact()
     new_contacts = app.contact.get_contact_list()
