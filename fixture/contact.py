@@ -57,12 +57,12 @@ class ContactHelper:
         wd = self.app.wd
         self.change_field_value("firstname", contact.Firstname)
         self.change_field_value("lastname", contact.Lastname)
-        self.change_field_value("address", contact.Address)
+        self.change_field_value("address", contact.address)
         self.change_field_value("address2", contact.address2)
-        self.change_field_value("homephone", contact.homephone)
-        self.change_field_value("mobilephone", contact.mobilephone)
-        self.change_field_value("workphone", contact.workphone)
-        self.change_field_value("secondaryphone", contact.secondaryphone)
+        self.change_field_value("home", contact.home)
+        self.change_field_value("mobile", contact.mobile)
+        self.change_field_value("work", contact.work)
+        self.change_field_value("phone2", contact.phone2)
         self.change_field_value("email", contact.email)
         self.change_field_value("email2", contact.email2)
         self.change_field_value("email3", contact.email3)
@@ -130,7 +130,7 @@ class ContactHelper:
         email2 = wd.find_element_by_name("email2").get_attribute("value")
         email3 = wd.find_element_by_name("email3").get_attribute("value")
         return Contact(Firstname=Firstname, Lastname=Lastname, id = id, address=address, address2=address2,
-                       homephone=homephone, mobilephone=mobilephone, workphone=workphone, secondaryphone=secondaryphone,
+                       home=homephone, mobile=mobilephone, work=workphone, phone2=secondaryphone,
                        email=email, email2=email2, email3=email3)
 
     def get_contact_from_view_page(self, index):
@@ -141,5 +141,5 @@ class ContactHelper:
         workphone = re.search("W: (.*)", text).group(1)
         mobilephone = re.search("M: (.*)", text).group(1)
         secondaryphone = re.search("P: (.*)", text).group(1)
-        return Contact(homephone=homephone, mobilephone=mobilephone,
-                       workphone=workphone, secondaryphone=secondaryphone)
+        return Contact(home=homephone, mobile=mobilephone,
+                       work=workphone, phone2=secondaryphone)
