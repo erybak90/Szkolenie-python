@@ -4,7 +4,7 @@ from random import randrange
 
 def test_modify_contact_firstname(app):
     if app.contact.count() == 0:
-        app.contact(Contact(Firstname="First name", Lastname="Last name", Nickname="NIckname", company="Corpo", home="Poland",
+        app.contact(Contact(Firstname="First name", Lastname="Last name", address="NIckname", address2="Corpo", home="Poland",
                 mobile="698998657",
                 work="wcia@radiowy.net", phone2="Dodanie kontaktu"))
     old_contacts = app.contact.get_contact_list()
