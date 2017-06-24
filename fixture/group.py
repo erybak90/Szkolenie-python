@@ -18,12 +18,12 @@ class GroupHelper:
         self.return_to_groups_page()
         self.group_cache = None
 
-    def modify_fist_group(self):
-        self.modify_group_by_index()
+    def modify_first_group(self):
+        self.modify_group_by_index(0)
 
-    def delete_fist_group(self):
-        self.delete_group_by_index()
 
+    def delete_first_group(self):
+        self.delete_group_by_index(0)
 
     def delete_group_by_index(self, index):
         wd = self.app.wd
@@ -93,3 +93,4 @@ class GroupHelper:
                 id = element.find_element_by_name("selected[]").get_attribute("value")
                 self.group_cache.append(Group(name=text, id=id))
         return list(self.group_cache)
+
