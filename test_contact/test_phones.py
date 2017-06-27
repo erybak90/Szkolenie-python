@@ -21,6 +21,7 @@ def test_contacts_on_home_page(app):
     assert contact_from_home_page.all_emails_from_home_page == merge_emails_like_on_home_page(contact_from_edit_page)
     assert contact_from_home_page.Firstname == contact_from_edit_page.Firstname
     assert contact_from_home_page.Lastname == contact_from_edit_page.Lastname
+    assert contact_from_home_page.address == contact_from_edit_page.address
 
 
 
