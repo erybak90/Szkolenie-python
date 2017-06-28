@@ -8,8 +8,8 @@ class ContactHelper:
 
     def modify_contact_by_index(self, index, new_contact_data):
         wd = self.app.wd
-        wd.find_elements_by_name("selected[]")[index].click()
-        wd.find_element_by_xpath("//table[@id='maintable']/tbody/tr[2]/td[8]/a/img").click()
+        self.select_contact_by_index(index)
+        wd.find_elements_by_css_selector("img[alt='Edit']")[index].click()
         # open modification form
         # fill contact form
         self.fill_contact_form(new_contact_data)
